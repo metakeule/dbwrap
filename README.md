@@ -3,6 +3,8 @@ dbwrap
 
 [![Build Status](https://secure.travis-ci.org/metakeule/dbwrap.png)](http://travis-ci.org/metakeule/dbwrap)
 
+Only works with Go >= 1.1
+
 This library offers two utilities for dealing with the Go database/sql package:
 
   1. a wrapper that can wrap any database driver that is compatible to sql/driver
