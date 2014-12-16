@@ -71,6 +71,10 @@ func (ø *Wrapper) Open(name string) (con driver.Conn, err error) {
 	ex, isEx := c.(driver.Execer)
 	if isEx {
 		con = &execConn{con, ex, ø}
+		if ø.HandleOpen != nil {
+			return ø.HandleOpen(name, con)
+		}
+		return
 	}
 
 	qr, isQu := c.(driver.Queryer)
