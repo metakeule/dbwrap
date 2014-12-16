@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/metakeule/dbwrap"
+	"gopkg.in/metakeule/dbwrap.v2"
 )
 
 var fake, db = dbwrap.NewFake()
