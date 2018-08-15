@@ -1,0 +1,4 @@
+github.com/go-on/pq v0.0.0-20141218142246-0d009c09e638 h1:Fh6PJnkskaXKxEI4C4/2q0umhKgSrl3ewts2hiCcMTY=
+github.com/go-on/pq v0.0.0-20141218142246-0d009c09e638/go.mod h1:xFkcJjWiWn7p+5DKgK79fLbW5V03PuoOb3VT0XWkZu0=
+gopkg.in/go-on/pq.v2 v2.0.0-20141218142246-0d009c09e638 h1:jBsAq2dOD1zhKVNq2CGxwdMtsbhYcv6e597+IMuJibI=
+gopkg.in/go-on/pq.v2 v2.0.0-20141218142246-0d009c09e638/go.mod h1:vKOBr5pmGgiYdAZQIPWvAh+D2VLh/82PrA1gP5O4cec=

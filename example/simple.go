@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"database/sql/driver"
 	"fmt"
-	"gopkg.in/go-on/pq.v2"
-	"gopkg.in/metakeule/dbwrap.v2"
+	"github.com/go-on/pq"
+	"github.com/metakeule/dbwrap"
 	"os"
 )
 
